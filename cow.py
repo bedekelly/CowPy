@@ -29,11 +29,14 @@ def print_cow(message):
     print_base_cow()
 
 # -- Main Code --
+def cow_say(message=None):
+    if message is not None:
+        print_cow(message)
+    elif len(sys.argv) == 2:
+        message = sys.argv[1]
+        print_cow(message)
+    else:
+        print(__doc__)
 
-if len(sys.argv) == 2:
-    message = sys.argv[1]
-    print_cow(message)
-
-else:
-    print(__doc__)
-
+if __name__ == "__main__":
+    cow_say()
