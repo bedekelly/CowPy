@@ -3,10 +3,10 @@ CowPy
 
 ###A basic implementation of the *nix "tool" cowsay in Python.
 #####Usage:
-cow.py <message>
+cow.py \<message\>
 
 ###Suggestions:
-To be able to run this as "cowpy <message" from anywhere, do the following:
+To be able to run this as "cowpy <message>" from anywhere, do the following:
 #####Windows/CMD:
 Create a batch file with the following line, somewhere that's in your PATH environment variable, and name it "cowpy.bat".
 ```
